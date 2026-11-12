@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "name": "FAQ",
+    "description": "Short answers, fun facts, and the questions visitors ask most.",
+    "updated": "2026-11-12"
+  },
+  "entries": [
+    {
+      "id": "faq-greeting",
+      "category": "fun",
+      "title": "Greeting",
+      "keywords": ["hi", "hello", "hey", "yo", "greetings", "good morning", "good evening", "howdy"],
+      "question": "Hi!",
+      "answer": "Hey — I'm Aditya's portfolio assistant. I can tell you about his background, projects, skills, experience, or how to contact him. Ask anything, or tap one of the category pills below the search bar.",
+      "source": "faq.json"
+    },
+    {
+      "id": "faq-fun-facts",
+      "category": "fun",
+      "title": "Fun facts",
+      "keywords": ["fun", "funny", "random", "fact", "facts", "interesting", "hobby", "hobbies", "outside work", "personal"],
+      "question": "Tell me something fun about Aditya.",
+      "answer": "Fun facts: Aditya started with a Diploma in Mechanical Engineering, moved into IT support, and is now finishing a BCA while working in operations data and AI. He speaks five languages at different levels — English, Hindi, Bengali, basic Tamil, and basic Telugu — and describes himself as a practical jack-of-all-trades who learns fast. He also built the star-trail cursor and PowerShell theme on this page.",
+      "source": "faq.json"
+    },
+    {
+      "id": "faq-superpower",
+      "category": "fun",
+      "title": "Superpower",
+      "keywords": ["superpower", "best at", "greatest strength", "specialty", "niche", "strength"],
+      "question": "What is Aditya's superpower?",
+      "answer": "His superpower is translation: taking a messy operational problem, a pile of ticket data, or a vague business question and turning it into a clean metric, a useful dashboard, or an AI-assisted workflow that a team can actually adopt. He pairs analytical thinking with documentation and cross-functional communication.",
+      "source": "faq.json"
+    },
+    {
+      "id": "faq-ai-transition",
+      "category": "fun",
+      "title": "Move into AI",
+      "keywords": ["why ai", "transition", "switch", "ai engineer", "future", "goal", "aspiration", "next"],
+      "question": "Why is Aditya moving into AI engineering?",
+      "answer": "Aditya's path went from hands-on IT support to operational analytics, and AI is the next layer: using retrieval, prompt engineering, and automation to make analysis faster and more accessible. He is especially interested in grounded AI systems — assistants that cite sources, admit when an answer is missing, and hand off cleanly to a human.",
+      "source": "faq.json"
+    },
+    {
+      "id": "faq-how-this-works",
+      "category": "fun",
+      "title": "How this assistant works",
+      "keywords": ["how does this work", "rag", "assistant", "chatbot", "search bar", "knowledge base", "answer", "not available", "fallback"],
+      "question": "How does this assistant work?",
+      "answer": "This assistant is a client-side retrieval engine. It builds a TF-IDF index from the JSON files in data/knowledge-base, expands your question with a small synonym map, and compares it with every knowledge entry. If the best match clears a confidence threshold, it returns the curated answer. If not, it shows a fixed fallback and offers a direct route to the Contact section — no generated guesses.",
+      "source": "faq.json"
+    },
+    {
+      "id": "faq-collaboration",
+      "category": "contact",
+      "title": "Working together",
+      "keywords": ["collaborate", "collaboration", "work together", "freelance", "consulting", "project", "help", "opportunity", "interview", "resume"],
+      "question": "Can I work with Aditya?",
+      "answer": "Yes. Aditya is open to full-time roles, collaborative projects, and conversations around AI-assisted reporting, operations analytics, data quality, and dashboard automation. Email adi.mech.32@gmail.com or use the form in the Contact section with a short note about what you have in mind.",
+      "source": "faq.json"
+    },
+    {
+      "id": "faq-location",
+      "category": "contact",
+      "title": "Location and time zone",
+      "keywords": ["where", "based", "live", "located", "location", "city", "timezone", "time zone", "ist", "india", "hyderabad"],
+      "question": "Where is Aditya based?",
+      "answer": "Aditya is based in Hyderabad, Telangana, India, which is India Standard Time (UTC+5:30). He is open to remote roles and relocation, and has experience supporting teams across multiple time zones.",
+      "source": "faq.json"
+    },
+    {
+      "id": "faq-salary",
+      "category": "contact",
+      "title": "Compensation",
+      "keywords": ["salary", "compensation", "pay", "ctc", "package", "rate", "budget"],
+      "question": "What are Aditya's salary expectations?",
+      "answer": "Compensation details are not published here. Please reach out directly at adi.mech.32@gmail.com or through the Contact section, and Aditya will be happy to discuss the role and expectations.",
+      "source": "faq.json"
+    },
+    {
+      "id": "faq-unavailable",
+      "category": "fun",
+      "title": "Questions outside the knowledge base",
+      "keywords": ["unknown", "unavailable", "not sure", "other", "misc", "secret", "private"],
+      "question": "What if my question is not covered?",
+      "answer": "This assistant answers strictly from Aditya's curated knowledge base. If a question is not covered, it will say so and offer the Contact options. For anything personal or time-sensitive, email is the most reliable route.",
+      "source": "faq.json"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="Portfolio OS preview with a lavender glass interface and PowerShell theme panel">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F3FF" />
+      <stop offset="0.55" stop-color="#EDE9FE" />
+      <stop offset="1" stop-color="#F3E8FF" />
+    </linearGradient>
+    <linearGradient id="iridescent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#C4B5FD" stop-opacity="0.9" />
+      <stop offset="0.33" stop-color="#FBCFE8" stop-opacity="0.85" />
+      <stop offset="0.66" stop-color="#99F6E4" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#FDE68A" stop-opacity="0.55" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7C3AED" />
+      <stop offset="1" stop-color="#DB2777" />
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#1E1B4B" />
+      <stop offset="1" stop-color="#4C1D95" />
+    </linearGradient>
+    <radialGradient id="blobA" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#A78BFA" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="blobB" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#F9A8D4" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#F9A8D4" stop-opacity="0" />
+    </radialGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#312E81" flood-opacity="0.12" />
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <clipPath id="screenClip">
+      <rect x="286" y="122" width="854" height="514" rx="20" />
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)" />
+  <circle cx="1055" cy="80" r="230" fill="url(#blobA)" />
+  <circle cx="1180" cy="690" r="260" fill="url(#blobB)" />
+  <circle cx="150" cy="690" r="190" fill="url(#blobA)" opacity="0.5" />
+
+  <!-- left rail -->
+  <rect width="228" height="750" fill="#1E1B4B" />
+  <g transform="translate(34 38)">
+    <rect width="34" height="34" rx="10" fill="url(#accent)" />
+    <path d="M11 17.5 17 11.5 23 17.5M17 11.5V24" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+  <text x="82" y="60" font-family="Inter, Segoe UI, sans-serif" font-size="19" font-weight="750" fill="#F5F3FF">Portfolio OS</text>
+  <text x="34" y="100" font-family="Inter, Segoe UI, sans-serif" font-size="9" letter-spacing="2.2" fill="#A5A1C9">ADITYA KUMAR · V1.0</text>
+
+  <rect x="24" y="126" width="180" height="40" rx="10" fill="#7C3AED" opacity="0.92" />
+  <circle cx="44" cy="146" r="4" fill="#F9F1A5" />
+  <text x="58" y="150" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#fff">Overview</text>
+
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#A5A1C9">
+    <text x="44" y="203">Hero</text>
+    <text x="44" y="247">Projects</text>
+    <text x="44" y="291">Skills marquee</text>
+    <text x="44" y="335">Experience</text>
+    <text x="44" y="379">Contact</text>
+    <text x="44" y="423">RAG guide</text>
+  </g>
+
+  <rect x="24" y="462" width="180" height="128" rx="12" fill="#ffffff" opacity="0.06" />
+  <text x="42" y="488" font-family="Inter, Segoe UI, sans-serif" font-size="9" letter-spacing="1.6" fill="#A5A1C9">STACK HEALTH</text>
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="10.5" fill="#F5F3FF">
+    <text x="42" y="515">Next.js 15</text>
+    <text x="42" y="537">Tailwind v4</text>
+    <text x="42" y="559">Framer Motion</text>
+    <text x="42" y="581">RAG engine</text>
+  </g>
+  <g fill="#34D399">
+    <circle cx="182" cy="511" r="3" />
+    <circle cx="182" cy="533" r="3" />
+    <circle cx="182" cy="555" r="3" />
+    <circle cx="182" cy="577" r="3" />
+  </g>
+
+  <circle cx="45" cy="700" r="16" fill="#4C1D95" />
+  <text x="39" y="705" font-family="Inter, Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#DDD6FE">AK</text>
+  <text x="70" y="698" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#F5F3FF">Aditya Kumar</text>
+  <text x="70" y="712" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#A5A1C9">AI Engineer</text>
+
+  <!-- window frame -->
+  <g filter="url(#softShadow)">
+    <rect x="272" y="108" width="882" height="542" rx="26" fill="#ffffff" opacity="0.72" />
+  </g>
+  <rect x="272" y="108" width="882" height="542" rx="26" fill="none" stroke="#DDD6FE" stroke-width="1.5" />
+  <rect x="286" y="122" width="854" height="514" rx="20" fill="#FBFAFF" />
+
+  <g clip-path="url(#screenClip)">
+    <!-- browser chrome -->
+    <rect x="286" y="122" width="854" height="42" fill="#F5F3FF" />
+    <circle cx="308" cy="143" r="5" fill="#FCA5A5" />
+    <circle cx="324" cy="143" r="5" fill="#FCD34D" />
+    <circle cx="340" cy="143" r="5" fill="#6EE7B7" />
+    <rect x="366" y="132" width="356" height="22" rx="11" fill="#fff" stroke="#E9E5FB" />
+    <circle cx="382" cy="143" r="3" fill="#A78BFA" />
+    <text x="392" y="147" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#625C89">adityakumar.github.io/portfolio</text>
+    <rect x="1068" y="132" width="52" height="22" rx="11" fill="#EDE9FE" />
+    <circle cx="1094" cy="143" r="5" fill="#7C3AED" />
+
+    <!-- hero wash -->
+    <rect x="286" y="164" width="854" height="176" fill="url(#iridescent)" opacity="0.5" />
+    <circle cx="560" cy="252" r="86" fill="url(#blobA)" />
+    <circle cx="760" cy="220" r="74" fill="url(#blobB)" />
+
+    <!-- header pills -->
+    <rect x="314" y="184" width="132" height="30" rx="15" fill="#fff" stroke="#DDD6FE" />
+    <path d="M330 199h10m-5-5v10" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" />
+    <text x="348" y="203" font-family="Inter, Segoe UI, sans-serif" font-size="9.5" font-weight="600" fill="#413B6B">Download Resume</text>
+    <g font-family="Inter, Segoe UI, sans-serif" font-size="9.5" fill="#625C89">
+      <text x="742" y="203">Projects</text>
+      <text x="802" y="203">Skills</text>
+      <text x="854" y="203">Experience</text>
+      <text x="926" y="203">Contact</text>
+    </g>
+    <rect x="1008" y="182" width="104" height="32" rx="16" fill="#012456" />
+    <text x="1020" y="202" font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" fill="#F9F1A5">&gt;_ PS mode</text>
+
+    <!-- hero avatar -->
+    <circle cx="414" cy="274" r="30" fill="#fff" stroke="#C4B5FD" stroke-width="3" />
+    <circle cx="406" cy="270" r="4" fill="#1E1B4B" />
+    <circle cx="422" cy="270" r="4" fill="#1E1B4B" />
+    <path d="M405 282c5 5 13 5 18 0" stroke="#1E1B4B" stroke-width="2.4" stroke-linecap="round" fill="none" />
+    <rect x="396" y="263" width="15" height="10" rx="3" fill="none" stroke="#7C3AED" stroke-width="1.6" />
+    <rect x="417" y="263" width="15" height="10" rx="3" fill="none" stroke="#7C3AED" stroke-width="1.6" />
+    <path d="M411 268h6" stroke="#7C3AED" stroke-width="1.6" />
+    <circle cx="438" cy="294" r="6" fill="#10B981" stroke="#fff" stroke-width="2" />
+
+    <text x="466" y="256" font-family="Inter, Segoe UI, sans-serif" font-size="29" font-weight="800" letter-spacing="-1" fill="#1E1B4B">Hey, I&apos;m Aditya</text>
+    <text x="466" y="276" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="650" fill="#7C3AED">AI Engineer · Data × AI × Operations</text>
+    <rect x="464" y="288" width="228" height="18" rx="9" fill="#fff" opacity="0.65" />
+    <rect x="464" y="288" width="168" height="18" rx="9" fill="#C4B5FD" opacity="0.55" />
+
+    <!-- chat bar preview -->
+    <rect x="466" y="316" width="644" height="44" rx="22" fill="#fff" stroke="#DDD6FE" />
+    <circle cx="490" cy="338" r="7" fill="#EDE9FE" />
+    <path d="M487 338h6M490 335v6" stroke="#7C3AED" stroke-width="1.6" stroke-linecap="round" />
+    <text x="508" y="342" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#8B85AC">Ask me anything...</text>
+    <rect x="1034" y="324" width="60" height="28" rx="14" fill="url(#accent)" />
+    <path d="M1057 338h14m-5-5 5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <g font-family="JetBrains Mono, Consolas, monospace" font-size="8" fill="#6D28D9">
+      <rect x="466" y="370" width="46" height="20" rx="10" fill="#EDE9FE" />
+      <text x="478" y="383">[Me]</text>
+      <rect x="520" y="370" width="66" height="20" rx="10" fill="#EDE9FE" />
+      <text x="530" y="383">[Projects]</text>
+      <rect x="594" y="370" width="56" height="20" rx="10" fill="#EDE9FE" />
+      <text x="604" y="383">[Skills]</text>
+      <rect x="658" y="370" width="44" height="20" rx="10" fill="#EDE9FE" />
+      <text x="668" y="383">[Fun]</text>
+      <rect x="710" y="370" width="62" height="20" rx="10" fill="#EDE9FE" />
+      <text x="720" y="383">[Contact]</text>
+    </g>
+
+    <!-- card strip -->
+    <rect x="314" y="414" width="258" height="118" rx="14" fill="#fff" stroke="#EDE9FE" />
+    <rect x="330" y="430" width="70" height="7" rx="3.5" fill="#C4B5FD" />
+    <rect x="330" y="448" width="198" height="5" rx="2.5" fill="#EDE9FE" />
+    <rect x="330" y="460" width="164" height="5" rx="2.5" fill="#EDE9FE" />
+    <rect x="330" y="482" width="42" height="16" rx="8" fill="#EDE9FE" />
+    <rect x="378" y="482" width="54" height="16" rx="8" fill="#FCE7F3" />
+    <rect x="330" y="508" width="94" height="6" rx="3" fill="#7C3AED" opacity="0.55" />
+
+    <rect x="586" y="414" width="258" height="118" rx="14" fill="#fff" stroke="#EDE9FE" />
+    <rect x="602" y="430" width="52" height="7" rx="3.5" fill="#99F6E4" />
+    <rect x="602" y="448" width="198" height="5" rx="2.5" fill="#EDE9FE" />
+    <rect x="602" y="460" width="150" height="5" rx="2.5" fill="#EDE9FE" />
+    <path d="M602 506l22-14 18 8 24-18 20 10 22-14 20 8 18-6" stroke="#0F766E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="746" cy="490" r="3.5" fill="#0F766E" />
+
+    <rect x="858" y="414" width="258" height="118" rx="14" fill="#012456" stroke="#0B3B7A" />
+    <text x="874" y="438" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#F9F1A5">PS C:\Users\Aditya&gt;</text>
+    <text x="874" y="458" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#EEEDF0">GET /projects</text>
+    <text x="874" y="478" font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" fill="#7DD3FC">04 projects found</text>
+    <rect x="874" y="492" width="52" height="18" rx="2" fill="#F9F1A5" opacity="0.16" />
+    <text x="882" y="505" font-family="JetBrains Mono, Consolas, monospace" font-size="8" fill="#F9F1A5">RAG ✓</text>
+    <rect x="934" y="492" width="76" height="18" rx="2" fill="#7DD3FC" opacity="0.14" />
+    <text x="942" y="505" font-family="JetBrains Mono, Consolas, monospace" font-size="8" fill="#7DD3FC">WebGL ✓</text>
+    <rect x="1018" y="492" width="80" height="18" rx="2" fill="#5EEAD4" opacity="0.14" />
+    <text x="1026" y="505" font-family="JetBrains Mono, Consolas, monospace" font-size="8" fill="#5EEAD4">theme ✓</text>
+
+    <!-- footer status -->
+    <rect x="314" y="550" width="802" height="66" rx="14" fill="#fff" stroke="#EDE9FE" />
+    <g font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" fill="#625C89">
+      <circle cx="334" cy="575" r="4" fill="#10B981" />
+      <text x="346" y="578">static export</text>
+      <text x="440" y="578">·</text>
+      <text x="454" y="578">0 KB server JS</text>
+      <text x="560" y="578">·</text>
+      <text x="574" y="578">32/32 RAG checks</text>
+      <text x="694" y="578">·</text>
+      <text x="708" y="578">left-hand scrollbar</text>
+    </g>
+    <g font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#8B85AC">
+      <text x="346" y="600">Built with Next.js, Tailwind CSS v4, Framer Motion and a grounded retrieval engine.</text>
+    </g>
+    <rect x="1000" y="560" width="100" height="34" rx="17" fill="#F5F3FF" />
+    <text x="1015" y="581" font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" fill="#7C3AED">v1.0 · 2026</text>
+  </g>
+
+  <!-- floating theme tag -->
+  <g filter="url(#softShadow)">
+    <rect x="918" y="78" width="220" height="64" rx="16" fill="#012456" />
+    <rect x="918" y="78" width="4" height="64" rx="2" fill="#F9F1A5" />
+    <text x="936" y="101" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#F9F1A5">theme: powershell</text>
+    <text x="936" y="120" font-family="JetBrains Mono, Consolas, monospace" font-size="8" fill="#A3BAD3">C:\Users\Aditya&gt; _</text>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="260" cy="640" r="5" fill="#7C3AED" />
+    <path d="M260 652v10" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" opacity="0.5" />
+  </g>
+</svg>

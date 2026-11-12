@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Aditya Kumar — AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E1B4B" />
+      <stop offset="0.6" stop-color="#4C1D95" />
+      <stop offset="1" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="spark" x1="18" y1="16" x2="46" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F3FF" />
+      <stop offset="0.5" stop-color="#FBCFE8" />
+      <stop offset="1" stop-color="#99F6E4" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#C4B5FD" stop-opacity="0.75" />
+      <stop offset="1" stop-color="#C4B5FD" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)" />
+  <circle cx="46" cy="16" r="19" fill="url(#glow)" />
+  <path d="M15 46 26 18h5l11 28h-6l-2.4-6.6H23.3L21 46h-6Zm10.1-11.6h6.8L28.5 24l-3.4 10.4Z" fill="#F5F3FF" opacity="0.96" />
+  <path d="M46 9c.7 4.6 2 5.9 6.6 6.6-4.6.7-5.9 2-6.6 6.6-.7-4.6-2-5.9-6.6-6.6C44 14.9 45.3 13.6 46 9Z" fill="url(#spark)" />
+  <circle cx="16" cy="52" r="2" fill="#F9F1A5" />
+  <path d="M20 52h9" stroke="#F9F1A5" stroke-width="2" stroke-linecap="round" opacity="0.65" />
+</svg>

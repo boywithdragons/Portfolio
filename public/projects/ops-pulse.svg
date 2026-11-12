@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="OpsPulse IT operations dashboard preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F3FF" />
+      <stop offset="1" stop-color="#EDE9FE" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7C3AED" />
+      <stop offset="1" stop-color="#DB2777" />
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#7C3AED" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop stop-color="#A78BFA" />
+      <stop offset="1" stop-color="#7C3AED" />
+    </linearGradient>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#312E81" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)" />
+  <circle cx="1050" cy="70" r="210" fill="#DDD6FE" opacity="0.5" />
+  <circle cx="1130" cy="700" r="240" fill="#FBCFE8" opacity="0.3" />
+
+  <!-- sidebar -->
+  <rect width="210" height="750" fill="#1E1B4B" />
+  <circle cx="42" cy="46" r="16" fill="url(#accent)" />
+  <path d="M35 46H49M42 39V53" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity="0.85" />
+  <text x="70" y="52" font-family="Inter, Segoe UI, sans-serif" font-size="19" font-weight="700" fill="#F5F3FF">OpsPulse</text>
+  <text x="30" y="93" font-family="Inter, Segoe UI, sans-serif" font-size="9" letter-spacing="2" fill="#A5A1C9">OPERATIONS</text>
+
+  <rect x="20" y="115" width="170" height="40" rx="10" fill="#7C3AED" opacity="0.9" />
+  <circle cx="40" cy="135" r="4" fill="#fff" />
+  <text x="56" y="139" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#fff" font-weight="600">Command center</text>
+
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#A5A1C9">
+    <rect x="20" y="168" width="170" height="36" rx="10" fill="#ffffff" opacity="0.04" />
+    <text x="40" y="190">Resolution flow</text>
+    <text x="40" y="234">SLA heatmap</text>
+    <text x="40" y="278">Asset lifecycle</text>
+    <text x="40" y="322">Team performance</text>
+    <text x="40" y="366">Data quality</text>
+    <text x="40" y="410">Reports</text>
+  </g>
+
+  <rect x="20" y="470" width="170" height="106" rx="12" fill="#ffffff" opacity="0.06" />
+  <text x="38" y="494" font-family="Inter, Segoe UI, sans-serif" font-size="9" letter-spacing="1.6" fill="#A5A1C9">HEALTH</text>
+  <text x="38" y="523" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#F5F3FF">99.2%</text>
+  <text x="38" y="543" font-family="Inter, Segoe UI, sans-serif" font-size="10" fill="#A5A1C9">SLA compliance</text>
+  <rect x="38" y="554" width="134" height="6" rx="3" fill="#312E81" />
+  <rect x="38" y="554" width="132" height="6" rx="3" fill="#34D399" />
+
+  <circle cx="42" cy="705" r="15" fill="#4C1D95" />
+  <text x="37" y="710" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#DDD6FE">AK</text>
+  <text x="66" y="703" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#F5F3FF">Aditya Kumar</text>
+  <text x="66" y="717" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#A5A1C9">Data insights</text>
+
+  <!-- header -->
+  <text x="250" y="56" font-family="Inter, Segoe UI, sans-serif" font-size="10" letter-spacing="2" fill="#7C3AED" font-weight="600">IT OPERATIONS · MAY 2026</text>
+  <text x="250" y="88" font-family="Inter, Segoe UI, sans-serif" font-size="29" font-weight="750" fill="#1E1B4B">Command center</text>
+  <text x="250" y="111" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#625C89">TAT, NSAT and MTTR in one trusted view — refreshed 07:42 IST</text>
+
+  <rect x="958" y="52" width="182" height="38" rx="19" fill="#ffffff" stroke="#DDD6FE" />
+  <circle cx="979" cy="71" r="4" fill="#10B981" />
+  <text x="991" y="75" font-family="Inter, Segoe UI, sans-serif" font-size="10" fill="#413B6B">Live · SQL source</text>
+
+  <!-- KPI cards -->
+  <g filter="url(#cardShadow)">
+    <rect x="250" y="140" width="208" height="106" rx="16" fill="#fff" />
+    <rect x="474" y="140" width="208" height="106" rx="16" fill="#fff" />
+    <rect x="698" y="140" width="208" height="106" rx="16" fill="#fff" />
+    <rect x="922" y="140" width="218" height="106" rx="16" fill="#1E1B4B" />
+  </g>
+  <g font-family="Inter, Segoe UI, sans-serif">
+    <text x="270" y="167" font-size="9" letter-spacing="1.4" fill="#625C89">AVG TAT</text>
+    <text x="270" y="200" font-size="30" font-weight="750" fill="#1E1B4B">6.2h</text>
+    <rect x="270" y="213" width="48" height="17" rx="8.5" fill="#D1FAE5" />
+    <text x="278" y="225" font-size="9" fill="#047857" font-weight="600">▼ 22%</text>
+    <text x="326" y="225" font-size="9" fill="#8B85AD">vs Apr</text>
+
+    <text x="494" y="167" font-size="9" letter-spacing="1.4" fill="#625C89">MTTR</text>
+    <text x="494" y="200" font-size="30" font-weight="750" fill="#1E1B4B">5.8h</text>
+    <rect x="494" y="213" width="48" height="17" rx="8.5" fill="#EDE9FE" />
+    <text x="502" y="225" font-size="9" fill="#6D28D9" font-weight="600">8h → 6h</text>
+    <text x="550" y="225" font-size="9" fill="#8B85AD">FY26</text>
+
+    <text x="718" y="167" font-size="9" letter-spacing="1.4" fill="#625C89">NSAT</text>
+    <text x="718" y="200" font-size="30" font-weight="750" fill="#1E1B4B">92%</text>
+    <rect x="718" y="213" width="48" height="17" rx="8.5" fill="#D1FAE5" />
+    <text x="726" y="225" font-size="9" fill="#047857" font-weight="600">▲ 4.1%</text>
+    <text x="774" y="225" font-size="9" fill="#8B85AD">rolling 30d</text>
+
+    <text x="942" y="167" font-size="9" letter-spacing="1.4" fill="#A5A1C9">SLA COMPLIANCE</text>
+    <text x="942" y="200" font-size="30" font-weight="750" fill="#F5F3FF">99.2%</text>
+    <rect x="942" y="213" width="110" height="17" rx="8.5" fill="#312E81" />
+    <text x="952" y="225" font-size="9" fill="#A7F3D0" font-weight="600">ON TARGET · 99%</text>
+  </g>
+
+  <!-- line chart -->
+  <g filter="url(#cardShadow)">
+    <rect x="250" y="266" width="520" height="230" rx="16" fill="#fff" />
+  </g>
+  <text x="272" y="294" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="650" fill="#1E1B4B">Resolution trend</text>
+  <text x="272" y="310" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#8B85AD">Average hours · last 12 weeks</text>
+  <rect x="628" y="282" width="122" height="24" rx="12" fill="#F5F3FF" />
+  <text x="640" y="298" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#6D28D9">TAT · MTTR</text>
+
+  <g stroke="#EDE9FE" stroke-width="1">
+    <line x1="272" y1="356" x2="748" y2="356" />
+    <line x1="272" y1="398" x2="748" y2="398" />
+    <line x1="272" y1="440" x2="748" y2="440" />
+  </g>
+  <path d="M272 392 C310 380 330 402 362 390 C396 377 416 351 450 359 C483 367 505 345 538 337 C570 330 590 352 622 338 C656 324 679 307 710 315 C730 320 738 330 748 326 L748 470 L272 470 Z" fill="url(#area)" />
+  <path d="M272 392 C310 380 330 402 362 390 C396 377 416 351 450 359 C483 367 505 345 538 337 C570 330 590 352 622 338 C656 324 679 307 710 315 C730 320 738 330 748 326" fill="none" stroke="#7C3AED" stroke-width="3" stroke-linecap="round" />
+  <circle cx="710" cy="315" r="4" fill="#fff" stroke="#7C3AED" stroke-width="3" />
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="8" fill="#A5A1C9">
+    <text x="272" y="364">8h</text>
+    <text x="272" y="406">6h</text>
+    <text x="272" y="448">4h</text>
+    <text x="690" y="466">W12</text>
+  </g>
+
+  <!-- donut/breakdown -->
+  <g filter="url(#cardShadow)">
+    <rect x="786" y="266" width="354" height="230" rx="16" fill="#fff" />
+  </g>
+  <text x="808" y="294" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="650" fill="#1E1B4B">Root-cause mix</text>
+  <text x="808" y="310" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#8B85AD">Repeat incidents prevented</text>
+  <circle cx="880" cy="382" r="54" fill="none" stroke="#EDE9FE" stroke-width="18" />
+  <circle cx="880" cy="382" r="54" fill="none" stroke="#7C3AED" stroke-width="18" stroke-dasharray="150 190" stroke-linecap="round" transform="rotate(-90 880 382)" />
+  <circle cx="880" cy="382" r="54" fill="none" stroke="#DB2777" stroke-width="18" stroke-dasharray="54 286" stroke-dashoffset="-150" stroke-linecap="round" transform="rotate(-90 880 382)" />
+  <text x="880" y="380" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="19" font-weight="750" fill="#1E1B4B">−40%</text>
+  <text x="880" y="396" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="8" fill="#8B85AD">repeat rate</text>
+
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="9">
+    <circle cx="973" cy="348" r="4" fill="#7C3AED" />
+    <text x="984" y="352" fill="#413B6B">Access &amp; identity</text>
+    <circle cx="973" cy="373" r="4" fill="#DB2777" />
+    <text x="984" y="377" fill="#413B6B">Network drops</text>
+    <circle cx="973" cy="398" r="4" fill="#0EA5E9" />
+    <text x="984" y="402" fill="#413B6B">Endpoint health</text>
+    <circle cx="973" cy="423" r="4" fill="#D97706" />
+    <text x="984" y="427" fill="#413B6B">Software patching</text>
+  </g>
+  <rect x="973" y="445" width="140" height="28" rx="8" fill="#F5F3FF" />
+  <text x="984" y="463" font-family="Inter, Segoe UI, sans-serif" font-size="8.5" fill="#6D28D9">Preventive actions logged</text>
+
+  <!-- table -->
+  <g filter="url(#cardShadow)">
+    <rect x="250" y="514" width="890" height="184" rx="16" fill="#fff" />
+  </g>
+  <text x="272" y="542" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="650" fill="#1E1B4B">Queue health</text>
+  <rect x="1002" y="526" width="118" height="24" rx="12" fill="#F5F3FF" />
+  <text x="1014" y="542" font-family="Inter, Segoe UI, sans-serif" font-size="8.5" fill="#6D28D9">Filter · All regions</text>
+
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="8.5" fill="#8B85AD">
+    <text x="272" y="574">QUEUE</text>
+    <text x="450" y="574">OPEN</text>
+    <text x="560" y="574">SLA</text>
+    <text x="670" y="574">TAT</text>
+    <text x="780" y="574">TREND</text>
+    <text x="930" y="574">OWNER</text>
+  </g>
+  <line x1="272" y1="583" x2="1118" y2="583" stroke="#EDE9FE" />
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="9.5" fill="#413B6B">
+    <text x="272" y="608" font-weight="600">Identity access</text>
+    <text x="450" y="608">42</text>
+    <text x="560" y="608">99.4%</text>
+    <text x="670" y="608">5.1h</text>
+    <text x="780" y="608" fill="#047857">▼ 18%</text>
+    <rect x="918" y="598" width="54" height="16" rx="8" fill="#EDE9FE" />
+    <text x="928" y="610" font-size="8" fill="#6D28D9">R. Mehta</text>
+
+    <text x="272" y="635" font-weight="600">Network &amp; VPN</text>
+    <text x="450" y="635">27</text>
+    <text x="560" y="635">98.7%</text>
+    <text x="670" y="635">6.4h</text>
+    <text x="780" y="635" fill="#B45309">▲ 4%</text>
+    <rect x="918" y="625" width="54" height="16" rx="8" fill="#FCE7F3" />
+    <text x="928" y="637" font-size="8" fill="#BE185D">A. Kumar</text>
+
+    <text x="272" y="662" font-weight="600">Endpoint hardware</text>
+    <text x="450" y="662">18</text>
+    <text x="560" y="662">99.6%</text>
+    <text x="670" y="662">4.8h</text>
+    <text x="780" y="662" fill="#047857">▼ 9%</text>
+    <rect x="918" y="652" width="54" height="16" rx="8" fill="#D1FAE5" />
+    <text x="928" y="664" font-size="8" fill="#047857">S. Rao</text>
+  </g>
+  <line x1="272" y1="680" x2="1118" y2="680" stroke="#EDE9FE" />
+  <text x="272" y="697" font-family="Inter, Segoe UI, sans-serif" font-size="8" fill="#A5A1C9">Source: SQL extract · validated 07:40 IST · governed DAX measures</text>
+
+  <rect x="0" y="0" width="1200" height="750" fill="none" stroke="#1E1B4B" stroke-opacity="0.08" />
+</svg>

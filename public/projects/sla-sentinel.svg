@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="SLA Sentinel analytics screen with breach-risk tickets and compliance trend">
+  <defs>
+    <radialGradient id="slBg" cx="0.7" cy="0.15" r="0.9">
+      <stop stop-color="#172554" />
+      <stop offset="0.55" stop-color="#0B1226" />
+      <stop offset="1" stop-color="#070C18" />
+    </radialGradient>
+    <linearGradient id="slAmber" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#F59E0B" />
+      <stop offset="1" stop-color="#FBBF24" />
+    </linearGradient>
+    <linearGradient id="slArea" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#F59E0B" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="slCyan" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22D3EE" />
+      <stop offset="1" stop-color="#2DD4BF" />
+    </linearGradient>
+    <filter id="slShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.35" />
+    </filter>
+    <pattern id="slGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#slBg)" />
+  <rect width="1200" height="750" fill="url(#slGrid)" />
+  <circle cx="1080" cy="90" r="260" fill="#F59E0B" opacity="0.1" />
+  <circle cx="190" cy="700" r="220" fill="#22D3EE" opacity="0.05" />
+
+  <!-- top bar -->
+  <rect x="32" y="26" width="1136" height="52" rx="13" fill="#0E1730" stroke="#ffffff" stroke-opacity="0.07" />
+  <rect x="48" y="38" width="28" height="28" rx="8" fill="url(#slAmber)" />
+  <path d="M56 54L60 58L68 46" stroke="#0B1226" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="88" y="49" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#F8FAFC">SLA Sentinel</text>
+  <text x="88" y="63" font-family="Inter, Segoe UI, sans-serif" font-size="7.5" letter-spacing="1.2" fill="#7C8BA5">OPERATIONS EARLY WARNING</text>
+
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#93A3BC">
+    <rect x="330" y="39" width="76" height="26" rx="13" fill="#ffffff" opacity="0.06" />
+    <text x="352" y="56" fill="#F8FAFC" font-weight="600">Overview</text>
+    <text x="434" y="56">Queues</text>
+    <text x="508" y="56">Handover</text>
+    <text x="592" y="56">Assets</text>
+    <text x="660" y="56">Reports</text>
+  </g>
+
+  <rect x="932" y="39" width="112" height="26" rx="13" fill="#ffffff" opacity="0.05" />
+  <circle cx="950" cy="52" r="3.5" fill="#34D399" />
+  <text x="959" y="56" font-family="Inter, Segoe UI, sans-serif" font-size="8" fill="#A7F3D0">Live · 14:32 IST</text>
+  <circle cx="1082" cy="52" r="13" fill="#1E293B" />
+  <text x="1077" y="56" font-family="Inter, Segoe UI, sans-serif" font-size="8.5" fill="#CBD5E1" font-weight="700">AK</text>
+  <circle cx="1128" cy="52" r="13" fill="#1E293B" />
+  <text x="1123" y="56" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#93A3BC">⋯</text>
+
+  <text x="32" y="114" font-family="Inter, Segoe UI, sans-serif" font-size="8.5" letter-spacing="1.6" fill="#F59E0B" font-weight="600">SHIFT HANDOVER · NIGHT → MORNING</text>
+  <text x="32" y="143" font-family="Inter, Segoe UI, sans-serif" font-size="26" font-weight="750" fill="#F8FAFC">SLA watchtower</text>
+  <text x="32" y="163" font-family="Inter, Segoe UI, sans-serif" font-size="9.5" fill="#7C8BA5">Open tickets ranked by breach risk, not just age. Refreshed every 5 minutes.</text>
+
+  <rect x="930" y="112" width="238" height="34" rx="17" fill="#F59E0B" opacity="0.12" stroke="#F59E0B" stroke-opacity="0.3" />
+  <circle cx="948" cy="129" r="3.5" fill="#FBBF24" />
+  <text x="958" y="133" font-family="Inter, Segoe UI, sans-serif" font-size="8.5" fill="#FBBF24" font-weight="600">3 tickets need attention</text>
+
+  <!-- stats -->
+  <g filter="url(#slShadow)">
+    <rect x="32" y="186" width="222" height="96" rx="14" fill="#0E1730" stroke="#ffffff" stroke-opacity="0.06" />
+    <rect x="270" y="186" width="222" height="96" rx="14" fill="#0E1730" stroke="#ffffff" stroke-opacity="0.06" />
+    <rect x="508" y="186" width="222" height="96" rx="14" fill="#0E1730" stroke="#ffffff" stroke-opacity="0.06" />
+    <rect x="746" y="186" width="222" height="96" rx="14" fill="#0E1730" stroke="#ffffff" stroke-opacity="0.06" />
+  </g>
+  <g font-family="Inter, Segoe UI, sans-serif">
+    <text x="52" y="214" font-size="7.5" letter-spacing="1.2" fill="#7C8BA5">COMPLIANCE</text>
+    <text x="52" y="246" font-size="27" font-weight="750" fill="#F8FAFC">99.2%</text>
+    <text x="52" y="266" font-size="8" fill="#34D399">▲ 0.4 pts vs last week</text>
+
+    <text x="290" y="214" font-size="7.5" letter-spacing="1.2" fill="#7C8BA5">AT RISK</text>
+    <text x="290" y="246" font-size="27" font-weight="750" fill="#FBBF24">03</text>
+    <text x="290" y="266" font-size="8" fill="#F59E0B">2 P2 · 1 P3 · within 90 min</text>
+
+    <text x="528" y="214" font-size="7.5" letter-spacing="1.2" fill="#7C8BA5">AVG RESOLUTION</text>
+    <text x="528" y="246" font-size="27" font-weight="750" fill="#F8FAFC">3.7h</text>
+    <text x="528" y="266" font-size="8" fill="#34D399">▼ 0.6h this month</text>
+
+    <text x="766" y="214" font-size="7.5" letter-spacing="1.2" fill="#7C8BA5">BREACHES · 30D</text>
+    <text x="766" y="246" font-size="27" font-weight="750" fill="#F8FAFC">02</text>
+    <text x="766" y="266" font-size="8" fill="#F87171">Both in legacy queue</text>
+  </g>
+  <rect x="52" y="272" width="182" height="3" rx="1.5" fill="#1E293B" />
+  <rect x="52" y="272" width="181" height="3" rx="1.5" fill="#34D399" />
+
+  <!-- compliance chart -->
+  <g filter="url(#slShadow)">
+    <rect x="32" y="300" width="650" height="258" rx="14" fill="#0E1730" stroke="#ffffff" stroke-opacity="0.06" />
+  </g>
+  <text x="54" y="330" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="650" fill="#F8FAFC">Compliance trend</text>
+  <text x="54" y="346" font-family="Inter, Segoe UI, sans-serif" font-size="8" fill="#7C8BA5">Rolling 30 days · target 99%</text>
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="7.5">
+    <rect x="480" y="318" width="80" height="20" rx="10" fill="#ffffff" opacity="0.05" />
+    <text x="492" y="332" fill="#93A3BC">All queues</text>
+    <rect x="568" y="318" width="94" height="20" rx="10" fill="#F59E0B" opacity="0.14" />
+    <text x="578" y="332" fill="#FBBF24">Risk view</text>
+  </g>
+  <g stroke="#ffffff" stroke-opacity="0.055">
+    <line x1="54" y1="382" x2="658" y2="382" />
+    <line x1="54" y1="424" x2="658" y2="424" />
+    <line x1="54" y1="466" x2="658" y2="466" />
+    <line x1="54" y1="508" x2="658" y2="508" />
+  </g>
+  <path d="M54 468 C92 462 118 472 152 452 C186 432 210 442 248 430 C284 418 310 438 348 420 C386 403 412 413 448 396 C484 379 512 388 548 366 C580 347 614 356 658 340 L658 530 L54 530 Z" fill="url(#slArea)" />
+  <path d="M54 468 C92 462 118 472 152 452 C186 432 210 442 248 430 C284 418 310 438 348 420 C386 403 412 413 448 396 C484 379 512 388 548 366 C580 347 614 356 658 340" fill="none" stroke="#F59E0B" stroke-width="2.6" stroke-linecap="round" />
+  <path d="M54 490 C96 485 124 492 160 480 C194 470 224 477 260 468 C296 459 324 468 360 456 C396 444 426 452 462 440 C498 428 526 436 562 422 C596 409 624 416 658 404" fill="none" stroke="#22D3EE" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.7" />
+  <line x1="54" y1="382" x2="658" y2="382" stroke="#34D399" stroke-width="1" stroke-dasharray="5 5" opacity="0.55" />
+  <text x="54" y="376" font-family="Inter, Segoe UI, sans-serif" font-size="7" fill="#34D399">99% target</text>
+  <circle cx="548" cy="366" r="4" fill="#0B1226" stroke="#F59E0B" stroke-width="2.5" />
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="7" fill="#55657F">
+    <text x="54" y="545">01 MAY</text>
+    <text x="190" y="545">08 MAY</text>
+    <text x="330" y="545">15 MAY</text>
+    <text x="470" y="545">22 MAY</text>
+    <text x="620" y="545">29 MAY</text>
+  </g>
+
+  <!-- risk list -->
+  <g filter="url(#slShadow)">
+    <rect x="700" y="300" width="468" height="258" rx="14" fill="#0E1730" stroke="#ffffff" stroke-opacity="0.06" />
+  </g>
+  <text x="722" y="330" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="650" fill="#F8FAFC">Highest breach risk</text>
+  <text x="722" y="346" font-family="Inter, Segoe UI, sans-serif" font-size="8" fill="#7C8BA5">Risk score = age + priority + history</text>
+
+  <rect x="722" y="360" width="424" height="52" rx="9" fill="#F59E0B" opacity="0.08" stroke="#F59E0B" stroke-opacity="0.2" />
+  <text x="734" y="380" font-family="Inter, Segoe UI, sans-serif" font-size="8" fill="#FBBF24" font-weight="700">TKT-8821 · P2</text>
+  <text x="734" y="397" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#E2E8F0">VPN drops · 42 min left</text>
+  <rect x="1000" y="370" width="132" height="6" rx="3" fill="#1E293B" />
+  <rect x="1000" y="370" width="106" height="6" rx="3" fill="#F59E0B" />
+  <text x="1066" y="391" font-family="Inter, Segoe UI, sans-serif" font-size="7.5" fill="#FBBF24">risk 82</text>
+
+  <rect x="722" y="420" width="424" height="52" rx="9" fill="#ffffff" opacity="0.03" />
+  <text x="734" y="440" font-family="Inter, Segoe UI, sans-serif" font-size="8" fill="#F87171" font-weight="700">TKT-8809 · P2</text>
+  <text x="734" y="457" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#E2E8F0">Printer conflict · 1h 12m left</text>
+  <rect x="1000" y="430" width="132" height="6" rx="3" fill="#1E293B" />
+  <rect x="1000" y="430" width="78" height="6" rx="3" fill="#F87171" />
+  <text x="1066" y="451" font-family="Inter, Segoe UI, sans-serif" font-size="7.5" fill="#FCA5A5">risk 68</text>
+
+  <rect x="722" y="480" width="424" height="52" rx="9" fill="#ffffff" opacity="0.03" />
+  <text x="734" y="500" font-family="Inter, Segoe UI, sans-serif" font-size="8" fill="#93A3BC" font-weight="700">TKT-8794 · P3</text>
+  <text x="734" y="517" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#E2E8F0">Asset tag mismatch · 3h 40m left</text>
+  <rect x="1000" y="490" width="132" height="6" rx="3" fill="#1E293B" />
+  <rect x="1000" y="490" width="46" height="6" rx="3" fill="#22D3EE" />
+  <text x="1066" y="511" font-family="Inter, Segoe UI, sans-serif" font-size="7.5" fill="#67E8F9">risk 41</text>
+
+  <!-- handover digest -->
+  <g filter="url(#slShadow)">
+    <rect x="32" y="578" width="1136" height="140" rx="14" fill="#0E1730" stroke="#ffffff" stroke-opacity="0.06" />
+  </g>
+  <text x="54" y="604" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="650" fill="#F8FAFC">Shift handover digest</text>
+  <text x="54" y="620" font-family="Inter, Segoe UI, sans-serif" font-size="8" fill="#7C8BA5">Auto-generated at 06:00 · delivered to #ops-handover</text>
+  <rect x="1040" y="590" width="108" height="26" rx="13" fill="#ffffff" opacity="0.05" />
+  <text x="1056" y="607" font-family="Inter, Segoe UI, sans-serif" font-size="8" fill="#93A3BC">Copy digest</text>
+
+  <g font-family="Inter, Segoe UI, sans-serif">
+    <rect x="54" y="634" width="340" height="64" rx="9" fill="#ffffff" opacity="0.03" />
+    <circle cx="72" cy="653" r="3.5" fill="#FBBF24" />
+    <text x="84" y="657" font-size="8.5" fill="#E2E8F0" font-weight="600">Watch VPN queue</text>
+    <text x="84" y="674" font-size="7.5" fill="#7C8BA5">3 P2 tickets aging past 4h · escalation path ready</text>
+    <text x="84" y="688" font-size="7.5" fill="#7C8BA5">Owner: A. Kumar · backup: R. Mehta</text>
+
+    <rect x="410" y="634" width="340" height="64" rx="9" fill="#ffffff" opacity="0.03" />
+    <circle cx="428" cy="653" r="3.5" fill="#22D3EE" />
+    <text x="440" y="657" font-size="8.5" fill="#E2E8F0" font-weight="600">Hardware batch in transit</text>
+    <text x="440" y="674" font-size="7.5" fill="#7C8BA5">42 devices arriving 11:00 · asset tags pre-generated</text>
+    <text x="440" y="688" font-size="7.5" fill="#7C8BA5">Validation checklist attached to handover note</text>
+
+    <rect x="766" y="634" width="382" height="64" rx="9" fill="#ffffff" opacity="0.03" />
+    <circle cx="784" cy="653" r="3.5" fill="#34D399" />
+    <text x="796" y="657" font-size="8.5" fill="#E2E8F0" font-weight="600">Reporting cycle clean</text>
+    <text x="796" y="674" font-size="7.5" fill="#7C8BA5">SLA extract validated · zero row-count drift</text>
+    <text x="796" y="688" font-size="7.5" fill="#7C8BA5">Leadership pack refreshed at 05:55</text>
+  </g>
+
+  <rect x="0" y="0" width="1200" height="750" fill="none" stroke="#ffffff" stroke-opacity="0.05" />
+</svg>

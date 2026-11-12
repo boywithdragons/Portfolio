@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "name": "Experience",
+    "description": "Roles, impact, dates, and the tools Aditya used.",
+    "updated": "2026-11-12"
+  },
+  "roles": [
+    {
+      "id": "wipro",
+      "title": "Administrator Support",
+      "track": "IT Operations Data Insights",
+      "company": "Wipro Technologies",
+      "location": "Hyderabad, India",
+      "start": "Jun 2025",
+      "end": "Present",
+      "dateLabel": "JUN 2025 — PRESENT",
+      "current": true,
+      "summary": "Turning operational data and generative AI into faster decisions for IT support teams.",
+      "bullets": [
+        "Apply advanced prompt engineering with generative AI to translate business questions and internal policies into actionable analysis for cross-functional teams.",
+        "Track and report TAT, NSAT, and MTTR; studied resolution trends and root-cause patterns to bring average resolution time from 8 hours down to 6 hours.",
+        "Analyze support-ticket trends with Excel and SQL to find recurring issue patterns, helping cut repeat incidents by 40% through preventive actions.",
+        "Collaborate across teams on data gathering and reporting, building dashboards that tighten operational efficiency."
+      ],
+      "tags": ["Generative AI", "Prompt Engineering", "SQL", "Excel", "KPI Reporting"]
+    },
+    {
+      "id": "ahana",
+      "title": "Desktop Support Engineer — Level 2",
+      "track": "Global Service Desk",
+      "company": "Ahana System and Solutions Pvt. Ltd.",
+      "location": "Hyderabad, India",
+      "start": "Jul 2023",
+      "end": "Jun 2025",
+      "dateLabel": "JUL 2023 — JUN 2025",
+      "current": false,
+      "summary": "Level 2 ownership for global endpoints, asset lifecycle, and SLA reporting.",
+      "bullets": [
+        "Resolved 200+ hardware and software issues monthly for global teams while supporting business continuity across multiple time zones.",
+        "Managed IT asset inventory for 5,000+ devices and supported hardware lifecycle planning through structured tracking and reporting.",
+        "Maintained 99.2% SLA compliance through consistent monitoring, reporting, and process adherence.",
+        "Improved issue-resolution workflows and reporting visibility with internal teams, and prepared daily compliance and support reports."
+      ],
+      "tags": ["SLA Management", "Asset Lifecycle", "Reporting", "IT Support", "Documentation"]
+    },
+    {
+      "id": "vserv",
+      "title": "Desktop Support Engineer — Level 1",
+      "track": "Floor Support & Enablement",
+      "company": "VSERV Infosystems Pvt. Limited",
+      "location": "Hyderabad, India",
+      "start": "May 2022",
+      "end": "Jun 2023",
+      "dateLabel": "MAY 2022 — JUN 2023",
+      "current": false,
+      "summary": "Hands-on floor support, recurring reporting, and training the next engineer.",
+      "bullets": [
+        "Resolved 150+ technical issues monthly while maintaining strong service quality and documentation standards.",
+        "Created and maintained recurring compliance and operational reports to support service-management decisions.",
+        "Trained junior engineers on documented troubleshooting practices and support workflows.",
+        "Supported infrastructure installation and troubleshooting for 500+ users, sustaining average resolution time below 4 hours."
+      ],
+      "tags": ["Troubleshooting", "Compliance Reporting", "User Enablement", "Windows", "SLA Support"]
+    }
+  ],
+  "entries": [
+    {
+      "id": "exp-wipro",
+      "category": "experience",
+      "title": "Administrator Support — IT Operations Data Insights at Wipro",
+      "keywords": ["wipro", "current", "administrator", "it operations", "data insights", "2025", "present", "kpi", "tat", "nsat", "mttr", "prompt engineering", "generative ai", "experience", "role", "job"],
+      "question": "Tell me about Aditya's current role at Wipro.",
+      "answer": "At Wipro Technologies (June 2025 – present), Aditya works in IT Operations Data Insights. He applies advanced prompt engineering with generative AI to translate business questions and internal policies into actionable analysis. He tracks TAT, NSAT, and MTTR, studied resolution trends to cut average resolution time from 8 hours to 6 hours, and used Excel and SQL to find recurring issue patterns — helping reduce repeat incidents by 40% through preventive actions. He also builds cross-team reports and dashboards.",
+      "source": "experience.json"
+    },
+    {
+      "id": "exp-ahana",
+      "category": "experience",
+      "title": "Desktop Support Engineer L2 at Ahana System and Solutions",
+      "keywords": ["ahana", "level 2", "l2", "desktop support", "2023", "2025", "sla", "assets", "inventory", "global teams"],
+      "question": "What did Aditya do at Ahana System and Solutions?",
+      "answer": "As Desktop Support Engineer – Level 2 at Ahana System and Solutions (July 2023 – June 2025), Aditya resolved 200+ hardware and software issues monthly for global teams across multiple time zones. He managed IT asset inventory for 5,000+ devices, supported hardware lifecycle planning, improved resolution workflows and reporting visibility, and maintained 99.2% SLA compliance. He also prepared daily compliance and operational reports.",
+      "source": "experience.json"
+    },
+    {
+      "id": "exp-vserv",
+      "category": "experience",
+      "title": "Desktop Support Engineer L1 at VSERV Infosystems",
+      "keywords": ["vserv", "first", "level 1", "l1", "desktop support", "2022", "2023", "floor support", "training", "troubleshooting", "500 users", "experience", "role", "job"],
+      "question": "What was Aditya's first role?",
+      "answer": "Aditya started as Desktop Support Engineer – Level 1 at VSERV Infosystems (May 2022 – June 2023). He resolved 150+ technical issues monthly, maintained recurring compliance and operational reports, trained junior engineers on documented troubleshooting practices, supported infrastructure for 500+ users, and kept average resolution time below 4 hours on SLA-based floor support.",
+      "source": "experience.json"
+    },
+    {
+      "id": "exp-experience-total",
+      "category": "experience",
+      "title": "Total experience",
+      "keywords": ["how many years", "years of experience", "experience", "total", "career", "history", "worked"],
+      "question": "How many years of experience does Aditya have?",
+      "answer": "Aditya has 4+ years of professional experience: Desktop Support Engineer L1 at VSERV Infosystems (2022–2023), Desktop Support Engineer L2 at Ahana System and Solutions (2023–2025), and Administrator Support – IT Operations Data Insights at Wipro Technologies (2025–present). Across those roles he moved from hands-on IT support into operational analytics, KPI reporting, and AI-assisted analysis.",
+      "source": "experience.json"
+    }
+  ]
+}

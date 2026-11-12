@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "name": "Projects",
+    "description": "Featured projects, what they do, and the stack behind them.",
+    "updated": "2026-11-12"
+  },
+  "projects": [
+    {
+      "id": "ops-pulse",
+      "number": "01",
+      "title": "OpsPulse",
+      "tagline": "An IT support command center that turns ticket noise into one trusted decision screen.",
+      "description": "OpsPulse is a Power BI reporting system built around the metrics an IT operations team actually gets asked about: TAT, NSAT, MTTR, SLA compliance, and repeat-incident rate. It consolidates SQL extracts, applies a governed DAX layer, and presents a leadership summary alongside drill-downs into queue, region, and root-cause category.",
+      "role": "Design Â· Data modelling Â· Reporting",
+      "year": "2025",
+      "features": [
+        "Automated SQL-to-Power BI refresh with validation checks before publish",
+        "DAX measure library so every team sees the same TAT, NSAT, and MTTR definitions",
+        "SLA heatmap and root-cause drilldowns for weekly operations reviews",
+        "One-page leadership summary with the three decisions that need attention"
+      ],
+      "impact": [
+        { "value": "8h â†’ 6h", "label": "Resolution time surfaced" },
+        { "value": "âˆ’40%", "label": "Repeat incidents" },
+        { "value": "1 view", "label": "Single KPI source" }
+      ],
+      "tech": ["Power BI", "DAX", "SQL", "Excel"],
+      "links": {
+        "live": "https://github.com/boywithdragons/ops-pulse",
+        "source": "https://github.com/boywithdragons/ops-pulse"
+      },
+      "image": "/projects/ops-pulse.svg",
+      "imageLink": "https://github.com/boywithdragons/ops-pulse",
+      "imageAlt": "OpsPulse dashboard preview with KPI cards, trend line and category breakdown"
+    },
+    {
+      "id": "ticket-triage-ai",
+      "number": "02",
+      "title": "TicketTriage AI",
+      "tagline": "A grounded RAG copilot that suggests the next best action â€” and never invents an answer.",
+      "description": "TicketTriage AI retrieves resolution guidance from a curated library of SOPs and past tickets, then summarizes the next best action for a support engineer. The strict rule is simple: no supporting source, no answer. Every response carries a citation, and low-confidence questions are routed to a human instead of guessed.",
+      "role": "Prompt design Â· Retrieval Â· Evaluation",
+      "year": "2025",
+      "features": [
+        "TF-IDF + keyword retrieval over a versioned SOP knowledge base",
+        "Citation-first answers with confidence bands and a strict no-source fallback",
+        "Severity and queue routing suggestions based on ticket metadata",
+        "Feedback loop that flags weak retrievals for KB improvement"
+      ],
+      "impact": [
+        { "value": "Cite-first", "label": "Answer policy" },
+        { "value": "0", "label": "Uncited responses" },
+        { "value": "24/7", "label": "Guided triage" }
+      ],
+      "tech": ["Python", "RAG", "Prompt Engineering", "SQL", "Next.js"],
+      "links": {
+        "live": "https://github.com/boywithdragons/ticket-triage-ai",
+        "source": "https://github.com/boywithdragons/ticket-triage-ai"
+      },
+      "image": "/projects/ticket-triage.svg",
+      "imageLink": "https://github.com/boywithdragons/ticket-triage-ai",
+      "imageAlt": "TicketTriage AI interface showing a retrieved answer with citations"
+    },
+    {
+      "id": "sla-sentinel",
+      "number": "03",
+      "title": "SLA Sentinel",
+      "tagline": "An early-warning system for SLA breaches, shift handovers, and the metrics behind them.",
+      "description": "SLA Sentinel watches open tickets against their SLA clocks and surfaces the ones likely to breach before they do. Built with Python, Pandas, and Plotly, it produces a shift-handover digest with aging queues, breach-risk scores, and the context a next engineer needs to take over without rereading the whole ticket.",
+      "role": "Analytics Â· Automation Â· Visualization",
+      "year": "2024",
+      "features": [
+        "Rolling SLA compliance calculation across queues, priority, and region",
+        "Breach-risk scoring using age, priority, and historical resolution time",
+        "Shift-handover digest generated from live ticket data",
+        "Interactive Plotly drilldowns for weekly operational reviews"
+      ],
+      "impact": [
+        { "value": "99.2%", "label": "SLA compliance sustained" },
+        { "value": "4h", "label": "Average resolution time" },
+        { "value": "Daily", "label": "Handover automation" }
+      ],
+      "tech": ["Python", "Pandas", "Plotly", "SQL", "Power BI"],
+      "links": {
+        "live": "https://github.com/boywithdragons/sla-sentinel",
+        "source": "https://github.com/boywithdragons/sla-sentinel"
+      },
+      "image": "/projects/sla-sentinel.svg",
+      "imageLink": "https://github.com/boywithdragons/sla-sentinel",
+      "imageAlt": "SLA Sentinel analytics screen with risk tickets and compliance trend"
+    },
+    {
+      "id": "portfolio-os",
+      "number": "04",
+      "title": "Portfolio OS",
+      "tagline": "This site: a static Next.js portfolio with a client-side RAG guide and a few physics toys.",
+      "description": "Portfolio OS is the page you are reading. It combines Next.js 15 with a fully static export for GitHub Pages, Tailwind CSS v4 theming, Framer Motion layout choreography, a WebGL ripple-and-dissolve image component, and a client-side retrieval engine that answers only from a versioned JSON knowledge base.",
+      "role": "Design Â· Front-end Â· RAG",
+      "year": "2026",
+      "features": [
+        "Dual theme system: lavender glass by day, PowerShell console by night",
+        "Client-side TF-IDF RAG with an exact no-answer fallback and contact handoff",
+        "Canvas sparkle cursor, iridescent fluid hero, and infinite skill marquee",
+        "WebGL ripple and dissolve previews with context-safe cleanup"
+      ],
+      "impact": [
+        { "value": "0 KB", "label": "Server-side JS shipped" },
+        { "value": "2 themes", "label": "One component system" },
+        { "value": "100%", "label": "Static export" }
+      ],
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "RAG"],
+      "links": {
+        "live": "https://github.com/boywithdragons/Portfolio",
+        "source": "https://github.com/boywithdragons/Portfolio"
+      },
+      "image": "/projects/portfolio-os.svg",
+      "imageLink": "https://github.com/boywithdragons/Portfolio",
+      "imageAlt": "Portfolio OS preview with lavender glass cards and a PowerShell theme panel"
+    }
+  ],
+  "entries": [
+    {
+      "id": "projects-overview",
+      "category": "projects",
+      "title": "Featured projects overview",
+      "keywords": ["projects", "project", "built", "build", "portfolio", "work samples", "showcase", "featured"],
+      "question": "What projects has Aditya built?",
+      "answer": "Aditya's featured projects are: (01) OpsPulse, a Power BI IT support command center for TAT, NSAT, MTTR, and SLA reporting; (02) TicketTriage AI, a grounded RAG copilot that suggests the next best support action with citations and a strict no-source fallback; (03) SLA Sentinel, a Python/Pandas early-warning system for SLA breaches and shift handovers; and (04) Portfolio OS, this Next.js 15 static portfolio with a client-side RAG guide.",
+      "source": "projects.json"
+    },
+    {
+      "id": "projects-ops-pulse",
+      "category": "projects",
+      "title": "OpsPulse",
+      "keywords": ["opspulse", "ops pulse", "dashboard", "power bi", "tat", "nsat", "mttr", "kpi dashboard", "support dashboard"],
+      "question": "Tell me about OpsPulse.",
+      "answer": "OpsPulse is a Power BI reporting system for IT operations. It consolidates SQL extracts and uses a governed DAX layer to report TAT, NSAT, MTTR, SLA compliance, and repeat incidents. Features include validated refresh, an SLA heatmap, root-cause drilldowns, and a one-page leadership summary. The stack is Power BI, DAX, SQL, and Excel. It surfaced the trend behind an 8-hour to 6-hour resolution-time improvement and supported a 40% reduction in repeat incidents.",
+      "source": "projects.json"
+    },
+    {
+      "id": "projects-ticket-triage",
+      "category": "projects",
+      "title": "TicketTriage AI",
+      "keywords": ["tickettriage", "ticket triage", "rag", "copilot", "ai project", "chatbot", "retrieval", "citations", "support ai"],
+      "question": "Tell me about TicketTriage AI.",
+      "answer": "TicketTriage AI is a retrieval-augmented support copilot. It searches a curated SOP and past-ticket library and summarizes the next best action with citations. The strict rule is no supporting source, no answer; low-confidence questions route to a human. It uses TF-IDF and keyword retrieval, confidence bands, severity routing, and a feedback loop for weak retrievals. Stack: Python, RAG, prompt engineering, SQL, and Next.js.",
+      "source": "projects.json"
+    },
+    {
+      "id": "projects-sla-sentinel",
+      "category": "projects",
+      "title": "SLA Sentinel",
+      "keywords": ["sla sentinel", "sentinel", "sla", "breach", "risk", "compliance", "handover", "python", "pandas", "plotly"],
+      "question": "Tell me about SLA Sentinel.",
+      "answer": "SLA Sentinel is an early-warning analytics tool for SLA breaches. It calculates rolling compliance across queues, priority, and region; scores breach risk from ticket age, priority, and historical resolution time; and generates a shift-handover digest. It is built with Python, Pandas, Plotly, SQL, and Power BI, and supported 99.2% SLA compliance with an average resolution time below 4 hours.",
+      "source": "projects.json"
+    },
+    {
+      "id": "projects-portfolio",
+      "category": "projects",
+      "title": "Portfolio OS",
+      "keywords": ["portfolio os", "this site", "this website", "portfolio", "nextjs", "next.js", "webgl", "framer motion", "tailwind"],
+      "question": "Tell me about this portfolio.",
+      "answer": "This portfolio is a Next.js 15 App Router project using React 19, Tailwind CSS v4, and Framer Motion, statically exported for GitHub Pages. It includes a light lavender theme and a PowerShell dark theme, a canvas sparkle cursor, an iridescent hero, an infinite skills marquee, an accordion projects list, and WebGL ripple/dissolve previews. The 'Ask me anything' bar is a client-side TF-IDF RAG that answers only from the JSON knowledge base.",
+      "source": "projects.json"
+    }
+  ]
+}

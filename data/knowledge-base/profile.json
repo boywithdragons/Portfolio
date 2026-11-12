@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "name": "Profile",
+    "description": "Who Aditya is, where he is based, how to reach him, and what he has studied.",
+    "updated": "2026-11-12"
+  },
+  "credentials": {
+    "education": [
+      {
+        "degree": "Bachelor of Computer Applications (BCA)",
+        "school": "Manipal University Jaipur",
+        "period": "2023 — 2027",
+        "status": "In progress"
+      },
+      {
+        "degree": "Diploma in Mechanical Engineering",
+        "school": "Government Polytechnic Nirsha",
+        "period": "2018 — 2021",
+        "status": "Completed"
+      },
+      {
+        "degree": "Matriculation",
+        "school": "Dwarika Memorial Foundation Academy",
+        "period": "2018",
+        "status": "Completed"
+      }
+    ],
+    "certifications": [
+      "Google Data Analytics",
+      "Harnessing the Power of Data with Power BI",
+      "Business Intelligence Essentials",
+      "ChatGPT Prompt Engineering for Developers",
+      "Programming for Everybody (Getting Started with Python)",
+      "Data Modeling with Power BI: Advanced DAX Calculations",
+      "Get Started With Tableau",
+      "Bing Copilot for Beginners: Enhancing Productivity with AI"
+    ]
+  },
+  "entries": [
+    {
+      "id": "profile-about",
+      "category": "me",
+      "title": "About Aditya",
+      "keywords": ["aditya", "about", "who", "name", "introduction", "bio", "summary", "engineer", "ai engineer", "background", "professional", "yourself"],
+      "question": "Who is Aditya?",
+      "answer": "Aditya Kumar is an AI-focused data and operations engineer based in Hyderabad, Telangana, India. He has 4+ years of experience across IT support, operational reporting, KPI tracking, and data-driven process improvement, with hands-on skills in Python, SQL, Excel, Power BI, and dashboard development. He translates business questions into actionable analysis, builds reporting that people actually use, and applies prompt engineering and generative AI to speed up decisions.",
+      "source": "profile.json"
+    },
+    {
+      "id": "profile-role",
+      "category": "me",
+      "title": "Current role",
+      "keywords": ["current", "job", "work", "working", "company", "role", "title", "administrator", "it operations"],
+      "question": "What does Aditya do right now?",
+      "answer": "Aditya currently works as Administrator Support in IT Operations Data Insights at Wipro Technologies, starting 13 June 2025. He tracks and reports TAT, NSAT, and MTTR, studies resolution trends, automates reporting, and uses advanced prompt engineering with generative AI to turn business questions and internal policies into actionable analysis.",
+      "source": "profile.json"
+    },
+    {
+      "id": "profile-contact",
+      "category": "contact",
+      "title": "Contact details",
+      "keywords": ["contact", "email", "mail", "phone", "call", "reach", "hire", "linkedin", "github", "location", "hyderabad", "connect"],
+      "question": "How can I contact Aditya?",
+      "answer": "Email: adi.mech.32@gmail.com · Phone: +91 75492 37007 · Location: Hyderabad, Telangana, India. The fastest way is email. You can also use the contact form or the LinkedIn and GitHub links in the Contact section. Aditya is open to relocation, remote roles, and flexible start dates.",
+      "source": "profile.json",
+      "href": "#contact"
+    },
+    {
+      "id": "profile-availability",
+      "category": "contact",
+      "title": "Availability",
+      "keywords": ["available", "availability", "notice", "join", "start date", "remote", "relocate", "relocation", "open to", "hiring", "opportunities"],
+      "question": "Is Aditya available for new opportunities?",
+      "answer": "Yes. Aditya is open to relocation, remote roles, and flexible start dates. He is interested in AI engineering, data analytics, business intelligence, and operations analytics roles where automation, reporting, and decision support matter.",
+      "source": "profile.json"
+    },
+    {
+      "id": "profile-education",
+      "category": "education",
+      "title": "Education",
+      "keywords": ["education", "study", "studied", "college", "university", "degree", "bca", "diploma", "mechanical", "qualification", "academic", "manipal", "school"],
+      "question": "What is Aditya's education?",
+      "answer": "Aditya is pursuing a Bachelor of Computer Applications (BCA) at Manipal University Jaipur (2023–2027). He also holds a Diploma in Mechanical Engineering from Government Polytechnic Nirsha (2018–2021) and completed matriculation at Dwarika Memorial Foundation Academy in 2018.",
+      "source": "profile.json"
+    },
+    {
+      "id": "profile-certifications",
+      "category": "education",
+      "title": "Certifications",
+      "keywords": ["certification", "certificate", "certified", "course", "google", "power bi", "tableau", "prompt engineering", "python", "dax", "business intelligence", "copilot"],
+      "question": "What certifications does Aditya have?",
+      "answer": "Aditya holds certifications in Google Data Analytics, Harnessing the Power of Data with Power BI, Business Intelligence Essentials, ChatGPT Prompt Engineering for Developers, Programming for Everybody (Getting Started with Python), Data Modeling with Power BI: Advanced DAX Calculations, Get Started With Tableau, and Bing Copilot for Beginners: Enhancing Productivity with AI.",
+      "source": "profile.json"
+    },
+    {
+      "id": "profile-languages",
+      "category": "fun",
+      "title": "Languages spoken",
+      "keywords": ["language", "languages", "speak", "english", "hindi", "bengali", "tamil", "telugu", "multilingual"],
+      "question": "What languages does Aditya speak?",
+      "answer": "Aditya speaks English and Hindi fluently, Bengali at an intermediate level, and basic Tamil and Telugu. Working across global support teams also means he is comfortable adapting communication to different audiences.",
+      "source": "profile.json"
+    },
+    {
+      "id": "profile-resume",
+      "category": "me",
+      "title": "Resume",
+      "keywords": ["resume", "cv", "download", "pdf", "profile document"],
+      "question": "Can I download the resume?",
+      "answer": "Yes — use the 'Download Resume ↓' button at the top left of the page. It downloads Aditya's resume as a PDF with his experience, skills, education, and certifications.",
+      "source": "profile.json"
+    },
+    {
+      "id": "profile-philosophy",
+      "category": "me",
+      "title": "How Aditya works",
+      "keywords": ["approach", "philosophy", "strength", "strengths", "working style", "value", "different", "why hire", "jack of all trades", "analytical", "storytelling"],
+      "question": "What is Aditya's working style?",
+      "answer": "Aditya's strengths are analytical thinking, data storytelling, process improvement, cross-functional support, and fast learning — a practical jack-of-all-trades. He likes starting with the business question, validating the data, and then shipping reporting or automation that removes recurring manual work. He documents what he builds so the next person can own it.",
+      "source": "profile.json"
+    }
+  ]
+}

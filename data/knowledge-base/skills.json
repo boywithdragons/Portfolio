@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "name": "Skills",
+    "description": "Aditya's technical toolkit, grouped by category.",
+    "updated": "2026-11-12"
+  },
+  "categories": [
+    {
+      "id": "languages",
+      "label": "Languages & Web",
+      "blurb": "The languages I reach for to clean, query, and ship.",
+      "skills": [
+        { "name": "Python", "icon": "python", "level": "Advanced" },
+        { "name": "SQL", "icon": "database", "level": "Advanced" },
+        { "name": "R", "icon": "r", "level": "Working" },
+        { "name": "JavaScript", "icon": "javascript", "level": "Working" },
+        { "name": "TypeScript", "icon": "typescript", "level": "Working" },
+        { "name": "HTML5", "icon": "html5", "level": "Advanced" },
+        { "name": "CSS3", "icon": "css3", "level": "Advanced" },
+        { "name": "C", "icon": "c", "level": "Academic" },
+        { "name": "C++", "icon": "cpp", "level": "Academic" }
+      ]
+    },
+    {
+      "id": "data",
+      "label": "Data & ML",
+      "blurb": "Exploration, modelling, and visuals that explain themselves.",
+      "skills": [
+        { "name": "Pandas", "icon": "pandas", "level": "Advanced" },
+        { "name": "NumPy", "icon": "numpy", "level": "Advanced" },
+        { "name": "Scikit-learn", "icon": "scikitlearn", "level": "Working" },
+        { "name": "Matplotlib", "icon": "matplotlib", "level": "Advanced" },
+        { "name": "Seaborn", "icon": "seaborn", "level": "Working" },
+        { "name": "Plotly", "icon": "plotly", "level": "Working" }
+      ]
+    },
+    {
+      "id": "bi",
+      "label": "BI & Reporting",
+      "blurb": "Turning operational noise into decisions leaders can act on.",
+      "skills": [
+        { "name": "Power BI", "icon": "powerbi", "level": "Advanced" },
+        { "name": "Tableau", "icon": "tableau", "level": "Working" },
+        { "name": "DAX", "icon": "chart", "level": "Working" },
+        { "name": "Power Query", "icon": "powerquery", "level": "Working" },
+        { "name": "Excel", "icon": "excel", "level": "Advanced" },
+        { "name": "Google Sheets", "icon": "googlesheets", "level": "Advanced" },
+        { "name": "KPI Reporting", "icon": "gauge", "level": "Advanced" }
+      ]
+    },
+    {
+      "id": "ai",
+      "label": "AI & Automation",
+      "blurb": "Practical generative AI — grounded, useful, and shipped.",
+      "skills": [
+        { "name": "Prompt Engineering", "icon": "sparkles", "level": "Advanced" },
+        { "name": "Generative AI", "icon": "openai", "level": "Advanced" },
+        { "name": "RAG", "icon": "brain", "level": "Building" },
+        { "name": "ChatGPT", "icon": "openai", "level": "Advanced" },
+        { "name": "Microsoft Copilot", "icon": "copilot", "level": "Working" },
+        { "name": "Report Automation", "icon": "bot", "level": "Advanced" }
+      ]
+    },
+    {
+      "id": "ops",
+      "label": "Analytics Ops",
+      "blurb": "The governance layer that keeps numbers trustworthy.",
+      "skills": [
+        { "name": "SLA Compliance", "icon": "shieldcheck", "level": "Advanced" },
+        { "name": "Asset Lifecycle", "icon": "monitor", "level": "Advanced" },
+        { "name": "Data Validation", "icon": "tables", "level": "Advanced" },
+        { "name": "ETL Support", "icon": "workflow", "level": "Working" },
+        { "name": "Process Improvement", "icon": "trendingup", "level": "Advanced" },
+        { "name": "Data Storytelling", "icon": "presentation", "level": "Advanced" }
+      ]
+    },
+    {
+      "id": "tools",
+      "label": "Platforms & Tools",
+      "blurb": "The daily drivers behind the analysis and the apps.",
+      "skills": [
+        { "name": "Git", "icon": "git", "level": "Working" },
+        { "name": "GitHub", "icon": "github", "level": "Working" },
+        { "name": "VS Code", "icon": "vscode", "level": "Advanced" },
+        { "name": "Jupyter", "icon": "jupyter", "level": "Advanced" },
+        { "name": "PowerShell", "icon": "powershell", "level": "Working" },
+        { "name": "Windows Admin", "icon": "windows", "level": "Advanced" },
+        { "name": "Next.js", "icon": "nextjs", "level": "Working" },
+        { "name": "React", "icon": "react", "level": "Working" },
+        { "name": "Tailwind CSS", "icon": "tailwind", "level": "Working" }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "skills-overview",
+      "category": "skills",
+      "title": "Technical skills overview",
+      "keywords": ["skills", "skill", "toolkit", "tech stack", "technologies", "tools", "what can he do", "technical"],
+      "question": "What are Aditya's technical skills?",
+      "answer": "Aditya's toolkit spans six areas. Languages & web: Python, SQL, R, JavaScript, TypeScript, HTML5, CSS3, C, C++. Data & ML: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Plotly. BI & reporting: Power BI, Tableau, DAX, Power Query, Excel, Google Sheets, KPI reporting. AI & automation: prompt engineering, generative AI, RAG, ChatGPT, Microsoft Copilot, report automation. Analytics ops: SLA compliance, asset lifecycle, data validation, ETL support, process improvement, data storytelling. Platforms & tools: Git, GitHub, VS Code, Jupyter, PowerShell, Windows, Next.js, React, Tailwind CSS.",
+      "source": "skills.json"
+    },
+    {
+      "id": "skills-python",
+      "category": "skills",
+      "title": "Python and data stack",
+      "keywords": ["python", "pandas", "numpy", "scikit", "sklearn", "matplotlib", "seaborn", "plotly", "data analysis", "analysis", "machine learning"],
+      "question": "How does Aditya use Python?",
+      "answer": "Aditya uses Python with Pandas and NumPy for data cleaning and exploration, Matplotlib, Seaborn, and Plotly for visual analysis, and Scikit-learn for modelling experiments. His Python work is grounded in reporting outcomes — finding trends, validating numbers, and turning them into something a stakeholder can act on.",
+      "source": "skills.json"
+    },
+    {
+      "id": "skills-bi",
+      "category": "skills",
+      "title": "Power BI, Tableau, and reporting",
+      "keywords": ["power bi", "tableau", "dax", "power query", "dashboard", "dashboards", "reporting", "kpi", "excel", "sheets", "business intelligence", "bi"],
+      "question": "What is Aditya's BI experience?",
+      "answer": "Aditya builds dashboards and recurring reports with Power BI, Tableau, DAX, Power Query, Excel, and Google Sheets. He tracks KPIs such as TAT, NSAT, MTTR, SLA compliance, and asset lifecycle metrics. His focus is operational reporting: clean data models, reliable refresh cycles, and leadership-ready views rather than one-off charts.",
+      "source": "skills.json"
+    },
+    {
+      "id": "skills-ai",
+      "category": "skills",
+      "title": "AI and automation skills",
+      "keywords": ["ai", "artificial intelligence", "genai", "generative ai", "prompt", "prompt engineering", "llm", "rag", "chatgpt", "copilot", "automation", "automate", "ai engineer", "ai experience"],
+      "question": "What AI skills does Aditya have?",
+      "answer": "Aditya applies advanced prompt engineering and generative AI to translate business questions and internal policies into analysis. He has built a fully client-side RAG assistant (the search bar on this page) that retrieves answers only from a curated knowledge base. He also uses report automation, ChatGPT, and Microsoft Copilot, and is comfortable designing grounded AI workflows that cite their source rather than inventing answers.",
+      "source": "skills.json"
+    },
+    {
+      "id": "skills-sql",
+      "category": "skills",
+      "title": "SQL and data modelling",
+      "keywords": ["sql", "query", "queries", "database", "data modelling", "data modeling", "joins", "etl"],
+      "question": "How strong is Aditya in SQL?",
+      "answer": "SQL is one of Aditya's core tools. He uses it to analyze support-ticket trends, join operational datasets, validate reporting numbers, and support ETL and recurring reporting cycles. He pairs SQL with Excel and Power BI so the same metric is defined consistently from source query to dashboard.",
+      "source": "skills.json"
+    },
+    {
+      "id": "skills-ops",
+      "category": "skills",
+      "title": "IT operations and governance",
+      "keywords": ["sla", "asset", "inventory", "it support", "operations", "compliance", "data quality", "validation", "etl", "process", "governance", "documentation"],
+      "question": "What operations experience does Aditya have?",
+      "answer": "Aditya has 4+ years of IT operations experience: Level 1 and Level 2 desktop support, SLA-based floor support, 5,000+ device asset management, compliance reporting, and data quality validation. He sustained 99.2% SLA compliance at Ahana and uses documentation and validation to keep operational records accurate across teams.",
+      "source": "skills.json"
+    },
+    {
+      "id": "skills-frontend",
+      "category": "skills",
+      "title": "Front-end skills",
+      "keywords": ["html", "css", "javascript", "typescript", "react", "nextjs", "next.js", "tailwind", "frontend", "front-end", "web"],
+      "question": "Does Aditya do front-end development?",
+      "answer": "Yes. Aditya works with HTML5, CSS3, JavaScript, TypeScript, React, Next.js, and Tailwind CSS. This portfolio is a Next.js 15 app with Tailwind CSS v4 and Framer Motion, statically exported for GitHub Pages — which also demonstrates his ability to pick up modern web tooling quickly.",
+      "source": "skills.json"
+    }
+  ]
+}
